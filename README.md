@@ -1,5 +1,10 @@
+# PROJETO
+
+Este projeto é minha pagina de portifólio. Utilizei o Fetch para consumir a API de repositórios do GitHub.
+
 ## TECNOLOGIAS UTILIZADAS
 
+- JavaScript
 - Node.js
 - Express.js
 - EJS
