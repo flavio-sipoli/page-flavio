@@ -16,7 +16,11 @@
 }
 
 body {
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    background-color: var(--main-gray);
+    margin: 0 auto;
+    max-width: 1160px;
+    padding: 0 20px;
+    width: 100%;
 }
 
 .container {
@@ -24,7 +28,7 @@ body {
     max-width: 1160px;
     padding: 0 20px;
     width: 100%;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    background-color: var(--main-gray);
     color: var(--main-white);
 }
 
@@ -65,7 +69,7 @@ body {
     border-radius: 10px;
     width: 250px;
     height: 150px;
-    background-color: var(--main-gray);
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
 .repo a {
@@ -74,8 +78,8 @@ body {
 }
 
 .repo:hover {
-    border-color: var(--main-red);
-    background-color: var(--main-red);
+    border-color: var(--main-blue);
+    background: var(--main-red);
 }
 
 .repo:hover a {
