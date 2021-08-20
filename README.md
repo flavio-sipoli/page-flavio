@@ -23,11 +23,11 @@ $ npm run dev
 
 Acesse localhost:3000 em seu browser
 
-# ACESSE O PROJETO AQUI:
+## ACESSE O PROJETO AQUI:
 
 Clique neste [link](https://flavio-sipoli.herokuapp.com/)
 
-# SCREENSHOT
+## SCREENSHOT
 
 ![image](https://github.com/flavio-sipoli/page-flavio/blob/master/public/screenshot/screenshot1.png)
 
