@@ -1,79 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/stylesheets/style.css">
-  <!--Font Awesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
-  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Flávio Sipoli</title>
+  </head>
 
-  <title>Flávio Sipoli</title>
-</head>
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
-<body>
-  <nav id="navbar" class="nav">
-    <ul class="nav-list">
-      <li>
-        <a href="#welcome-section">About</a>
-      </li>
-      <li>
-        <a href="#projects">Work</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey I am Flávio Sipoli</h1>
+      <h2>A web Developer</h2>
+      <h2>JavaScript | React | Node.js</h2>
+    </section>
 
-  <section id="welcome-section" class="welcome-section">
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">My projects on Github</h2>
 
-    <h1>Hey I am Flávio Sipoli</h1>
-    <h2>A web Developer</h2>
-    <h2>JavaScript | React | Node.js</h2>
+      <a href="/dashboard" class="btn btn-show-all"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+    </section>
 
-  </section>
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>let's work together..</h2>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://www.linkedin.com/in/fl%C3%A1vio-sipoli-5246141b2/"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-linkedin"></i> Linkedin</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/flavio-sipoli"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+      </div>
+    </section>
 
-  <section id="projects" class="projects-section">
-    <h2 class="projects-section-header">My projects on Github</h2>
+    <footer>
+      <p>&copy; Developed by Flávio Sipoli</p>
+    </footer>
 
-    <a href="/dashboard" class="btn btn-show-all">Show all<i class="fas fa-chevron-right"></i></a>
-  </section>
-
-  <section id="contact" class="contact-section">
-    <div class="contact-section-header">
-      <h2>let's work together..</h2>
-    </div>
-    <div class="contact-links">
-      <a href="https://www.linkedin.com/in/fl%C3%A1vio-sipoli-5246141b2/" target="_blank" class="btn contact-details"><i
-          class="fab fa-linkedin"></i> Linkedin</a>
-      <a id="profile-link" href="https://github.com/flavio-sipoli" target="_blank" class="btn contact-details"><i
-          class="fab fa-github"></i> GitHub</a>
-    </div>
-  </section>
-
-  <footer>
-    <p>
-      &copy; Created by Flávio Sipoli
-    </p>
-
-  </footer>
-
-  <!-- Start of Async Callbell Code -->
-  <script>
-    window.callbellSettings = {
-      token: "pfroKrGCZ23PRJo9ZTZfmB5D"
-    };
-  </script>
-  <script>
-    (function () { var w = window; var ic = w.callbell; if (typeof ic === "function") { ic('reattach_activator'); ic('update', callbellSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Callbell = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://dash.callbell.eu/include/' + window.callbellSettings.token + '.js'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()
-  </script>
-  <!-- End of Async Callbell Code -->
-
-</body>
-
+    <!-- Start of Async Callbell Code -->
+    <script>
+      window.callbellSettings = {
+        token: "pfroKrGCZ23PRJo9ZTZfmB5D",
+      };
+    </script>
+    <script>
+      (function () {
+        var w = window;
+        var ic = w.callbell;
+        if (typeof ic === "function") {
+          ic("reattach_activator");
+          ic("update", callbellSettings);
+        } else {
+          var d = document;
+          var i = function () {
+            i.c(arguments);
+          };
+          i.q = [];
+          i.c = function (args) {
+            i.q.push(args);
+          };
+          w.Callbell = i;
+          var l = function () {
+            var s = d.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src =
+              "https://dash.callbell.eu/include/" +
+              window.callbellSettings.token +
+              ".js";
+            var x = d.getElementsByTagName("script")[0];
+            x.parentNode.insertBefore(s, x);
+          };
+          if (w.attachEvent) {
+            w.attachEvent("onload", l);
+          } else {
+            w.addEventListener("load", l, false);
+          }
+        }
+      })();
+    </script>
+    <!-- End of Async Callbell Code -->
+  </body>
 </html>
